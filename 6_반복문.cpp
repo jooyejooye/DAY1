@@ -7,4 +7,8 @@ int main()
 
 	for (int i = 0; i < 10; i++)
 		std::cout << x[i] << std::endl;
+
+	// c+11 의 새로운 for 문 > range for
+	for (auto e : x)
+		std::cout << e << std::endl;
 }
